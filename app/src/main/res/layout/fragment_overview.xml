@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverviewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/direction" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="DIRECTION"
+                    android:textColor="#1186BF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/telp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="CALL"
+                    android:textColor="#1186BF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SAVE"
+                    android:textColor="#1186BF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/web" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="WEBSITE"
+                    android:textColor="#1186BF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#BFBDBD" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Besides exhibits, this ceramics museum offers classes, lectures &#38; tours, plus a bistro &#38; gift shop."
+            android:textColor="#121212"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:src="@drawable/panah" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Know what features this place has?"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
